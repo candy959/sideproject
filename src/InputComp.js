@@ -50,7 +50,7 @@ class InputComp extends Component {
   render() {
     return (
       <div className="inputComp">
-        <input placeholder="Type something..." onChange={this.updateWord}></input> 
+        <input placeholder={this.props.placeholder} onChange={this.updateWord}></input> 
         <button onClick={this.submitWord}>SUBMIT</button>
       </div>
     );

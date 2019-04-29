@@ -7,9 +7,10 @@
 .logo{
   width:30px;
   height:46px;
-  background-color: red;
+  background-color:yellows;
   display:inline-block;
   margin-right:30px;
+  background-color: aquamarine
 }
 .headline h1{
   display:inline-block;
@@ -31,7 +32,7 @@
 .inputComp button{
   margin-top:40px;
   font-size: 2em;
-  background-color: red;
+  background-color:aquamarine;
 }
 
 /*DISPLAY COMPONENT*/
@@ -45,17 +46,37 @@
   margin-top:50px;
 }
 
-.display .box{
+.display .box1{
   width: 200px;
   height: 200px;
   text-align: center;
-  background-color: red;
+  background-color:brown;
   margin:10px;
   padding-top: 85px;
   box-sizing: border-box;
 }
 
-.display .box p{
+
+.display .box2{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color:purple;
+  margin:10px;
+  padding-top: 85px;
+  box-sizing: border-box;
+}
+
+.display .box3{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color:hotpink;
+  margin:10px;
+  padding-top: 85px;
+  box-sizing: border-box;
+}
+.display .box1 p{
   background-color: white;
   padding: 0 6px;
   margin-top: 100px;
@@ -65,6 +86,26 @@
   font-size: 1.2em;
 }
 
+
+.display .box2 p{
+  background-color:white;
+  padding: 0 6px;
+  margin-top: 100px;
+  display: inline;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+.display .box3 p{
+  background-color:white;
+  padding: 0 6px;
+  margin-top: 100px;
+  display: inline;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
 
 /*this next part is just for us to see the component better while*/
 /*buidling it*/
